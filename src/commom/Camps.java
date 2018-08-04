@@ -5,14 +5,14 @@ import java.util.Scanner;
 
 public class Camps {
 	
-	//ATRIBUTES
+	//	ATRIBUTES
 	
 	public char [][] camp = new char[10][10];
 	public char [][] campValue = new char[10][10];
 	public int turno;
 	
 	
-	//METHODS
+	//	METHODS
 	
 	public Camps() {
 		Random gerador = new Random();
@@ -102,5 +102,4 @@ public class Camps {
 	public void setCampValue(char[][] campValue) {
 		this.campValue = campValue;
 	}
-	
 }
